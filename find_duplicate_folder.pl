@@ -2,7 +2,7 @@
 
 use strict;
 
-my $file = "output";
+my $file = "output_subfolders";
 open (FH, "< $file") or die "Can't open $file for read: $!";
 my @lines;
 while (<FH>) {
