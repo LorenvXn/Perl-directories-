@@ -32,6 +32,8 @@ for my $i (0..$#lines){
 				}
 		}
 	}
+
+close(DIR);
 	
 }
 
